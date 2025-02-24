@@ -3,3 +3,13 @@ body {
   background-color: salmon;
   text-align: center;
 }
+#group {
+  text-align: center;
+}
+#linkcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 100px;
+  text-align: center;
+}
