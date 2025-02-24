@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+        body {
+            background-image: url("../images/ashfak/ashfakzoobg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #title {
+            text-align: center;
+            color: #ff0800;
+        }
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        #linkcontainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            grid-gap: 100px; /* Space between items */
+            text-align: center;
+        }
+
+        #linkcontainer a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 120px;
+            background-color: blue;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px; 
+        }
+    </style>
+    <script></script>
+</head>
+<body>
+    <h1 id = "title">Ashfak's Zoo</h1>
+    <div id = "container">
+        <div id = "linkcontainer">
+            <a href = "../animalpages/ashfak/cheetah.html">Cheetah</a>
+            <a href = "../animalpages/ashfak/lion.html">Lion</a>
+            <a href = "../animalpages/ashfak/zebra.html">Zebra</a>
+            <a href = "../animalpages/ashfak/panda.html">Panda</a>
+        </div>
+    </div>
+</body>
+</html>
