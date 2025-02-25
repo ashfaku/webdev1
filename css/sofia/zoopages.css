@@ -1,0 +1,22 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#animal {
+    text-align: center;
+    color: rgb(146, 219, 255);
+}
+#infocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#info {
+    width: 500px;
+    text-align: center;
+    background-color: rgb(29, 126, 171);
+    color: white;
+    padding: 10px;
+}
